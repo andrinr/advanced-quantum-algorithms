@@ -67,3 +67,9 @@ $\ket{00} = \begin{bmatrix} 1 \\ 0 \end{bmatrix} \otimes \begin{bmatrix} 1 \\ 0 
 $\ket{01} = \begin{bmatrix} 1 \\ 0 \end{bmatrix} \otimes \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \\ 0 \\ 0 \end{bmatrix}$
 
 Qiskit uses the convention of $\ket{q_1} \otimes \ket{q_0}$ (little endian)
+
+### Equivalences
+
+- HZH = X
+- HXH = Z
+- XYX = -Y
